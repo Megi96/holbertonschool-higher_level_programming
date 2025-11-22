@@ -1,3 +1,4 @@
--- delete database; shouldn't fail if non-existent
+-- list all tables in database passed as argument
+-- cat [filename] | mysql -hlocalhost -uroot -p mysql
 
-DROP DATABASE IF EXISTS hbtn_0c_0;
+SHOW tables;
